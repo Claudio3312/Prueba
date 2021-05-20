@@ -23,7 +23,7 @@ include ("sidebar.php")
                                 <div class="btn-box-row row-fluid">
                                     <a href="#" class="btn-box big span4"><i class=" icon-random"></i><b>65%</b>
                                         <p class="text-muted">
-                                            Growth</p>
+                                            Crecimiento</p>
                                     </a><a href="#" class="btn-box big span4"><i class="icon-user"></i><b>15</b>
                                         <p class="text-muted">
                                             New Users</p>
