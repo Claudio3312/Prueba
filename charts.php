@@ -3,17 +3,17 @@
 <head>
 
 <?php 
-include ("header.php")
+include ("includes/header.php")
 ?>    
 </head>
 <body>
 <?php 
-include ("navbar.php")
+include ("includes/navbar.php")
 ?>	
 	
 
 <?php 
-include ("sidebar.php")
+include ("includes/sidebar.php")
 ?>				
 
     
@@ -100,14 +100,12 @@ include ("sidebar.php")
         </div>
         <!--/.container-->
     </div>
-<?php
-include ("footer.php")
-?>
+
 
    <!--/.wrapper-->
 <div class="footer">
         <div class="container">
-            <b class="copyright">&copy; 2014 Edmin - EGrappler.com </b>All rights reserved.
+            <b class="copyright">&copy; Equipo Davinci </b>All rights reserved.
         </div>
     </div>
     <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>

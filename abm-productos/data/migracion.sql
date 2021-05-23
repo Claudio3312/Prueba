@@ -1,0 +1,13 @@
+CREATE DATABASE tutorial_crud;
+
+use tutorial_crud;
+
+CREATE TABLE productos (
+  id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(30) NOT NULL,
+  talle VARCHAR(30) NOT NULL,
+  descripcion VARCHAR(50) NOT NULL,
+  marca INT(3),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

@@ -4,19 +4,19 @@
 <head>
 <head>
 <?php 
-include ("header.php")
+include ("includes/header.php")
 ?>
 </head>
 <body>
 
 <?php 
-include ("navbar.php")
+include ("includes/navbar.php")
 ?>
 <?php 
-include ("sidebar.php")
+include ("includes/sidebar.php")
 ?>
 	
-				<div class="span9">
+				<div class="span9"> 
 					<div class="content">
 
 						<div class="btn-controls">
@@ -164,9 +164,18 @@ include ("sidebar.php")
 		</div><!--/.container-->
 	</div><!--/.wrapper-->
 
-	<?php
-include ("footer.php")
-?>
+      <!--/.wrapper-->
+	  <div class="footer">
+        <div class="container">
+            <b class="copyright">&copy; Equipo Davinci </b>All rights reserved.
+        </div>
+    </div>
+    <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+    <script src="scripts/flot/jquery.flot.pie.js" type="text/javascript"></script>
+    <script src="scripts/common.js" type="text/javascript"></script>
 
 
 </body>
