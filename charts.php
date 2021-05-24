@@ -13,7 +13,7 @@ include ("includes/navbar.php")
 	
 
 <?php 
-include ("includes/sidebar.php")
+include ("includes/sidebar.phpa")
 ?>				
 
     
